@@ -14,6 +14,7 @@
    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 */
 
+
 /* core */
 #include <opcua.h>
 
@@ -892,7 +893,7 @@ OpcUa_FinishErrorHandling;
 static
 OpcUa_StatusCode OpcUa_SecureListener_Close(OpcUa_Listener* a_pListener)
 {
-    OpcUa_SecureListener* pSecureListener = OpcUa_Null;
+    OpcUa_SecureListener* pSecureListener;
 
 OpcUa_InitializeStatus(OpcUa_Module_SecureListener, "Close");
 
