@@ -177,4 +177,5 @@ OPCUA_EXPORT OpcUa_StringA OPCUA_DLLCALL OpcUa_ProxyStub_GetConfigString(void);
 OPCUA_EXPORT OpcUa_StringA OPCUA_DLLCALL OpcUa_ProxyStub_GetStaticConfigString(void);
 
 OPCUA_END_EXTERN_C
+void opcua_proxystub_ini(void);
 #endif /* _OpcUa_ProxyStub_H_ */
